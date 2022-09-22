@@ -1,14 +1,19 @@
 body {
-    background-color:black;
+    background-color: #121212;
     color: white;
     margin: 0px;
 }
 
-h1{
-    font-size:4em;
+h1 {
+    font-size: 4em;
 }
-.header-txt2{
+
+.header-txt2 {
     font-size: 2em;
+}
+
+.shadow {
+    text-shadow: 2px 2px black;
 }
 
 .header-bg-img {
@@ -29,6 +34,30 @@ h1{
     transform: translate(-50%, -50%);
 }
 
-.shadow{
-    text-shadow: 2px 2px black;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262626;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:#404040;
 }

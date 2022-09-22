@@ -8,21 +8,23 @@ h1 {
     font-size: 4em;
 }
 
-.header-txt2 {
+h2 {
     font-size: 2em;
 }
+
 
 .shadow {
     text-shadow: 2px 2px black;
 }
 
 .header-bg-img {
-    background-image: url("./img/working.jpg");
+    background-image: url("./img/workingCropped.jpg");
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    height: 500px;
+    height: 600px;
 
 }
 
@@ -60,4 +62,24 @@ li a {
 
 li a:hover{
     background-color:#404040;
+}
+
+.center{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.txt-box{
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.txt-about{
+    font-size:1.2em;
+    line-height: 1.5;
+}
+
+.img-size{
+    width:50%;
 }

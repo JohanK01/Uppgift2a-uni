@@ -5,40 +5,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 1. title taggen gör så att text visas på fliken högst upp i din browser -->
     <title>Min sida</title>
+    <!-- länkar css, istället för att skriva css och html i samma fil, blir renare -->
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+    <!-- använder mig av div element för att hålla ihop andra element (sektioner av sidan) -->
     <div class="header-bg-img">
         <div class="header-center">
+            <!-- 2. h1 taggen är för header 1, man ska bara använda sig av den taggen en gång -->
             <h1 class="shadow">Johan Klausen</h1>
         </div>
     </div>
-
+    <!-- 9. ul är en lista (unordered list) och li är list item. 
+    använder mig av det för att skapa en navbar-->
     <ul>
+        <!-- 4. använder mig av a taggar för att länka till andra sidor  -->
         <li><a href="index.html">Hem</a></li>
         <li><a href="contact.html">Kontakta mig</a></li>
+        <!-- 7. här använder jag em för att få analys fliken kursiv för att man 
+        ska se att det inte är samma som de första länkarna -->
         <li><a href="./pdf/1a_analys_johkla-2 (1).pdf"><em>Analys.pdf</em></a></li>
     </ul>
 
     <div class="center txt-box">
         <div>
+            <!-- 2. Här är en h2 tagg för att visa en rubrik, inte lika viktig som h1 taggen -->
             <h2>Om mig</h2>
-            <p class="txt-about">Hej jag heter Johan och jag är 21 år gammal. Just nu går jag bara två kurser för att hålla igång
-                pluggandet,
+            <!-- 3. p är för paragraf där jag kan skriva text som visas på sidan -->
+            <p class="txt-about">Hej jag heter Johan och jag är 21 år gammal och bor i Nynäshamn. 
+                Just nu går jag bara två kurser för att hålla igång pluggandet,
                 det jag gör resten av dagen är att jobba på ett start-up företag i Stockholm.
             </p>
         </div>
 
         <div class="center">
-            <h3>Bild på mig</h3>
+            <!-- 2. här är en h3 rubrik för det minst viktigaste på sidan -->
+            <h3>Bild på mig</h3>¨
+            <!-- 5. använder mig av img taggen för att visa upp en bild -->
             <img class ="img-size" src="./img/profilbild.jpg" alt="Bild på mig">
         </div>
+        <!-- 6. har en strong tag på "mejla mig" för att få den fetstil -->
         <a href="mailto:klausenjohan23@gmail.com"><button class="button button1"><strong>Mejla mig</strong></button></a>
 
     </div> 
-    
+    <!-- den här div taggen är här enbart för att man ska kunna scrolla på sidan -->
     <div style="height: 200px;"></div>
 
 </body>
